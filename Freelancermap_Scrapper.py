@@ -82,6 +82,8 @@ class Freelancermap_Scrapper():
                     page += 1
                 else:
                     break
+        else:
+            print(f'[INFO] No Credentials file ({self.input_file}) in directory...')
 
 if __name__ == '__main__':
     scrapper = Freelancermap_Scrapper()
